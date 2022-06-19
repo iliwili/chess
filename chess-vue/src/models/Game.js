@@ -8,10 +8,10 @@ export class Game {
   }
 
   start() {
-    console.log(this.board.tiles[6][0].piece.getMoves(this.board, 6, 0));
+    // console.log(this.board.tiles[3][3].piece.getMoves(this.board));
   }
 
   movePiece(x1, y1, x2, y2) {
-    console.log(x1, y2, x2, y2);
+    console.log(x1, y1, x2, y2);
   }
 }
